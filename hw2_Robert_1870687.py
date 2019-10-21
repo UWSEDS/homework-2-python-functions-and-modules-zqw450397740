@@ -13,7 +13,7 @@ import pandas as pd
 
 # returns a pandas DataFrame based on the file downloaded from the url
 def read_create_dataframe(url):
-    return pd.read_csv('pronto.csv')
+    return pd.read_csv(url)
 
 
 # returns True if the DataFrame meets the 3 conditions above meanwhile; return False if not
